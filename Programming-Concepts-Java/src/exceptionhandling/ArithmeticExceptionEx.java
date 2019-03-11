@@ -1,6 +1,6 @@
 package exceptionhandling;
 
-public class ArithematicException {
+public class ArithmeticExceptionEx {
 
 public void divide(int n1, int n2) throws Exception{		
 		
