@@ -1,9 +1,10 @@
 package exceptionhandlingdriver;
 
 import java.util.Scanner;
-import exceptionhandling.ArithematicException;
 
-public class ArithematicExceptionDriver {
+import exceptionhandling.ArithmeticExceptionEx;
+
+public class ArithmeticExceptionExDriver {
 
 public static void main(String[] args) throws Exception {
 		
@@ -13,7 +14,7 @@ public static void main(String[] args) throws Exception {
 		System.out.println("Enter second number ");
 		int n2 = scan.nextInt();
 		scan.close();
-		ArithematicException ariex = new ArithematicException();
+		ArithmeticExceptionEx ariex = new ArithmeticExceptionEx();
 		ariex.divide(n1, n2);
 	}
 }
